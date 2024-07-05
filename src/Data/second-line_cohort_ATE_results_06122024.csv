@@ -1,0 +1,21 @@
+Outcome,E[Y_1],E[Y_0],ATE,95% C.I.,Description
+t_bin,0.200617,0.183601,0.017016,"(0.010282, 0.022956)",All relevant revisits
+t_sepsis_bin,0.00859,0.00471,0.00388,"(0.002502, 0.005459)",Sepsis
+t_i_uti_bin,0.006341,0.005306,0.001035,"(-0.000295, 0.002245)",UTI (inpatient)
+t_i_neph_bin,0.000894,0.000522,0.000372,"(-0.000209, 0.001064)",Pyelonephritis (inpatient)
+t_i_sepsis_bin,0.001579,0.001561,1.7e-05,"(-0.000561, 0.000582)",Sepsis (inpatient)
+t_i_bin,0.008137,0.006851,0.001286,"(-0.000196, 0.00263)",All relevant inpatient revisits
+t_uti_bin,0.196008,0.181785,0.014224,"(0.008498, 0.021651)",UTI
+t_neph_bin,0.00726,0.002566,0.004694,"(0.00347, 0.005933)",Pyelonephritis
+AE_c_diff,0.001092,0.001496,-0.000404,"(-0.001046, 0.000228)",C. difficile infection
+AE_skin,0.004557,0.008281,-0.003724,"(-0.004904, -0.002451)",Skin
+AE_GI,0.005511,0.003943,0.001568,"(0.000553, 0.002795)",Gastrointestinal
+AE_AKI,0.010424,0.007081,0.003342,"(0.00177, 0.004944)",Acute kidney injury
+AE_other,0.021917,0.015953,0.005964,"(0.003653, 0.008156)",Other
+AE_any,0.03814,0.032539,0.005601,"(0.002536, 0.008448)",All adverse events
+fibro_1_mon_outcome,0.001207,0.001244,-3.7e-05,"(-0.000736, 0.000586)",One month Fibrocystic Disease
+fibro_3_mon_outcome,0.002839,0.003331,-0.000492,"(-0.001603, 0.000501)",Three month Fibrocystic Disease
+hernia_1_mon_outcome,0.001716,0.002297,-0.000581,"(-0.001319, 3e-05)",One Month Hernia
+hernia_3_mon_outcome,0.003505,0.004244,-0.000739,"(-0.001762, 0.000329)",Three Month Hernia
+fracture_1_mon_outcome,0.010966,0.011699,-0.000732,"(-0.002332, 0.001097)",One Month Fracture
+fracture_3_mon_outcome,0.018856,0.020383,-0.001526,"(-0.004007, 0.001362)",Three Month Fracture
