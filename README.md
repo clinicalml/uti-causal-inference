@@ -9,8 +9,7 @@ Repository Overview
 Setup
 
 Src/Notebooks/Cohort Generation
--	Cohort_Generation.ipynb 
-  o	Generates the Cohort using the criteria and defines the treatment groups
+
 -	Feature Generation 1-Final.ipynb 
   o	Generates Treatment History Confounders
 -	Feature Generation 2-Final.ipynb 
@@ -21,6 +20,8 @@ Src/Notebooks/Cohort Generation
   o	Generates additional condition history covariates using concept ancestors for following condition categories
 -	Feature Generation 5-Final.ipynb 
   o	Generates lab, lab existence features, censor and outcome variables
+  -	Cohort_Generation.ipynb 
+  o	Generated table 1 and table 5 from feature table 
 
 
 Src/Notebooks/Covariate Tables
@@ -30,6 +31,7 @@ Src/Notebooks/Covariate Tables
   o	Generates Treatment History Confounders
   
 Src/Notebooks/ATE Tables and Plots
+The causal analysis notebooks utilize either the omop or domain-knowledge derived features and second line or alternatives treatment to do cross-validated grid search for propensity/censorship models. These notebooks also contain the code to use the model to generate boostrap ATEs, shapley value plots and the calibration plots.
 -	Forest Plots.ipynb
 -	Grid Search and Causal Analysis (final) – alternatives
   o	The notebook used to perform the causal analysis on first line vs alternatives
