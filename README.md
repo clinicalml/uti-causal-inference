@@ -27,12 +27,11 @@ Src/Notebooks/Cohort Generation
 Src/Notebooks/Covariate Tables
 -	Antibiotic prevalence analysis.ipynb:
   	Creates supplementary table 5
--	Missingness Analysis.ipynb:
-  	Generates treatment history confounders
+-	Table 1.ipynb:
+  	Creates table 1
   
 Src/Notebooks/ATE Tables and Plots
 The causal analysis notebooks utilize either the omop or domain-knowledge derived features and second line or alternatives treatment to do cross-validated grid search for propensity/censorship models. These notebooks also contain the code to use the model to generate boostrap ATEs, shapley value plots and the calibration plots.
--	Forest Plots.ipynb
 -	Grid Search and Causal Analysis (final) – alternatives
   o	The notebook used to perform the causal analysis on first line vs alternatives
 -	Grid Search and Causal Analysis (final) – second line
