@@ -8,7 +8,7 @@ The data used in this study is not publicly available.
 Repository Overview
 Setup
 
-Src/Notebooks/Cohort Generation
+Data pre-processing and analysis/Cohort Generation
 
 -	Feature Generation 1-Final.ipynb: 
   	Generates Treatment History Confounders
@@ -24,13 +24,13 @@ Src/Notebooks/Cohort Generation
     Generates the cohort based on defined inclusion/exclusion criteria
 
 
-Src/Notebooks/Covariate Tables
+Data pre-processing and analysis/Covariate Tables
 -	Antibiotic prevalence analysis.ipynb:
   	Creates supplementary table 5
 -	Table 1.ipynb:
   	Creates table 1
   
-Src/Notebooks/ATE Tables and Plots
+Data pre-processing and analysis/ATE Tables and Plots
 The causal analysis notebooks utilize either the omop or domain-knowledge derived features and second line or alternatives treatment to do cross-validated grid search for propensity/censorship models. These notebooks also contain the code to use the model to generate boostrap ATEs, shapley value plots and the calibration plots.
 -	Grid Search and Causal Analysis (final) – alternatives
   o	The notebook used to perform the causal analysis on first line vs alternatives
